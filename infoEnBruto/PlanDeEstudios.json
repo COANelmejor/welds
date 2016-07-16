@@ -297,7 +297,7 @@ var grados =
 			"name":"Math",
 			"themes":
 			[
-
+			"Math skill review with standard form, exponential form, factors, equalities and inequalities, variables and formulas, prime factorization, square roots, estimating, order of operations, decimals, geometry, the metric system and percents."
 			]
 		},
 		"language": 
@@ -305,7 +305,9 @@ var grados =
 			"name": "Language Arts",
 			"themes":
 			[
-
+				"Guided reading of children's classics including The Red Pony, biographies, short stories, non-fiction, myths, comprehension and interpretation with daily spelling and vocabulary",	
+			"Discussion of descriptive, narrative writing and poetry writing, focusing on the planning and outlining of an essay",	
+			"Discussion of diagramming simple, compound and complex sentences with emphasis on punctuation and a review of the parts of speech."
 			]
 		},
 		"science": 
@@ -313,21 +315,47 @@ var grados =
 			"name": "Science",
 			"themes":
 			[
-
+				"Focus on the scientific method",	
+				"Elementary physics",	
+				"Solids",	
+				"Liquids",	
+				"Gases",	
+				"Heat",	
+				"Magnetism",	
+				"Atoms",	
+				"Electricity",	
+				"Engines",	
+				"Inertia",	
+				"Fire",	
+				"Weather",	
+				"Photosynthesis",	
+				"Composting",	
+				"Friction",	
+				"Sound",	
+				"Environmental issues",	
+				"Health and personal hygiene",	
 			]
 		},
 		"social":{
 			"name": "Social Science",
 			"themes":
 			[
-
+				"The study of maps",	
+				"Climate",	
+				"Landforms",	
+				"Vegetation",	
+				"Minerals",	
+				"Rivers",	
+				"Economies of Europe, the former Soviet Union, Oceania, Antarctica, Australia, New Zealand, North America, South America, India and Asia."
 			]
 		},
 		"arts":{
 			"name": "Fine Arts",
 			"themes": 
 			[
-				
+				"The art of the theatre",	
+				"Music appreciation with a look at great musicians including Haydn, Bach, Rimsky-Korsakov, Mozart, Gershwin, Rachmaninoff, Chopin, Beethoven, and Tchaikovsky",	
+				"Appreciation of great visual artists, including Michelangelo, Monet, O'Keeffe, Rembrandt, Cassatt , John Singer Sargent, and Leonardo da Vinci",	
 			]
 		}
 	},
@@ -338,7 +366,16 @@ var grados =
 			"name":"Math",
 			"themes":
 			[
-
+				"Problem solving",	
+				"Introduction to algebra, exponents and power",	
+				"Review of variables, expressions, and equations",	
+				"Explore solving division and multiplication equations and two step equations",	
+				"Geometry",	
+				"Graphs and statistics",	
+				"Symmetry",	
+				"Prime factorization",	
+				"Rational numbers and decimals",	
+				"Discussion of square roots, scientific notation, ratio, proportion and percent, and probability."	
 			]
 		},
 		"language": 
@@ -346,7 +383,14 @@ var grados =
 			"name": "Language Arts",
 			"themes":
 			[
-
+				"Guided reading of literary classics of Shakespeare and Arthur Conan Doyle",	
+				"improving comprehension and reading of authors: Hemingway, Frost, Isaac Bashevis Singer, Richard Wilbur, Saki, Plath, Keats, and Tennyson",	
+				"Introduction to writing the five paragraph essay",	
+				"Building spoken, reading and written vocabulary",	
+				"Narrative, descriptive and explanatory writing",	
+				"Proofreading",	
+				"Story writing",	
+				"Review of parts of speech"	
 			]
 		},
 		"science": 
@@ -354,21 +398,52 @@ var grados =
 			"name": "Science",
 			"themes":
 			[
-
+				 "Review of the scientific method",	
+				 "Design experiments",	
+				 "Physics",	
+				 "States of matter",	
+				 "The heat and motion connection",	
+				 "The study of the atom",	
+				 "The periodic table",	
+				 "Rational numbers and decimals",	
+				 "Discussion of organic and inorganic material",	
+				 "Solutions",	
+				 "Concentration",	
+				 "Acids and bases",	
+				 "Waves",	
+				 "Frequency and pitch",	
+				 "The optics of lenses",	
+				 "Electricity",	
+				 "Matter",	
+				 "Energy",	
+				 "Electricit",	
+				 "Nuclear sources of energy",
 			]
 		},
 		"social":{
 			"name": "Social Science",
 			"themes":
 			[
-
+				"The responsibilities and privileges of citizenship",	
+				"The history of America's government",	
+				"National, state and local government's responsibilities to citizens",	
+				"The political party system",	
+				"Voting",	
+				"Nominating candidates",	
+				"Elections",	
+				"How a bill becomes a law",	
+				"How the Congress, courts and executive branch of the government work",	
+				"How our economic system operates",	
 			]
 		},
 		"arts":{
 			"name": "Fine Arts",
 			"themes": 
 			[
-				
+				"History of American home entertainment from the games and songs of the colonists to the computers and iPods of the twenty-first century",	
+				"Frescos",	
+				"The marches of John Phillip Sousa",	
+				"The photography of Brady, Jackson, and Hine."
 			]
 		}
 	},
@@ -379,7 +454,16 @@ var grados =
 			"name":"Math",
 			"themes":
 			[
-
+				"Algebra I: "
+				"Evaluating Expressions",	
+				"Writing Equations and Inequalities",	
+				"Math Properties",	
+				"History of Algebra",	
+				"Equations & Inequalities",	
+				"Graphing",	
+				"Systems of Equations",	
+				"Polynomials",	
+				"Radicals"
 			]
 		},
 		"language": 
@@ -387,7 +471,21 @@ var grados =
 			"name": "Language Arts",
 			"themes":
 			[
-
+				"Grade appropriate vocabulary, reading, writing, and grammar studies, including stories, essays, poems and prose by: ",	
+				"O. Henry",	
+				"Walt Whitman",	
+				"Langston Hughes",	
+				"Edgar Allan Poe",	
+				"Jack London",	
+				"Anton Chekhov",	
+				"Shirley Jackson",	
+				"Dorothy Canfield Fisher",	
+				"William Shakespeare",	
+				"Carl Sandburg",	
+				"E. E. Cummings",	
+				"David Wagoner",	
+				"Robert Herrick",
+				"Homer",	
 			]
 		},
 		"science": 
@@ -395,21 +493,111 @@ var grados =
 			"name": "Science",
 			"themes":
 			[
-
+				"Physical & Earth Science: ",	
+				"Measurement",	
+				"Scientific Methods",	
+				"Variables and Control in Experiments",	
+				"Atoms and Matter",	
+				"Minerals / Crystals",	
+				"Technology",	
+				"Intro to The Rock Cycle",	
+				"Maps / Map Projections",	
+				"Landforms",	
+				"Soil",	
+				"Weathering",	
+				"Erosion",	
+				"Glaciers",	
+				"Wind",	
+				"Water Erosion",	
+				"Groundwater",	
+				"Continental Drift",	
+				"Seafloor Spreading",	
+				"Plate Tectonics",	
+				"Earthquakes",	
+				"Volcanoes",	
+				"Relative and Absolute Ages of Rocks",	
+				"Evolution and Geologic Time",	
+				"Early Earth History",	
+				"Fossils",	
+				"Extinction of Dinosaurs",	
+				"Earth's Atmosphere",	
+				"The Ozone Layer",	
+				"The Water Cycle",	
+				"Weather Patterns",	
+				"Severe Weather",	
+				"Climate & Climate Changes",	
+				"Pollution",	
+				"Population Impact on the Environment",	
+				"Using the Land",	
+				"Oceans",	
+				"The Moon",	
+				"The Solar System",	
+				"Radiation from Space",	
+				"Electromagnetic Radiation",	
+				"Telescopes, Satellites",	
+				"Contemporary Issues in Physical & Earth Science"
 			]
 		},
 		"social":{
 			"name": "Social Science",
 			"themes":
 			[
-
+				"World History I",	
+				"What is History and How is it Understood",	
+				"Earliest Civilizations",	
+				"Greek Civilization",	
+				"Roman Civilization",	
+				"Indian Civilization",	
+				"Chinese Civilization",	
+				"Byzantine Empire",	
+				"Islamic Civilization",	
+				"African Civilizations",	
+				"Pre-Columbian Civilizations of the Americas",	
+				"The Fall of Rome and its Effects",	
+				"The Late Middle Ages and The Renaissance",	
+				"Reformation and The Age of Absolutism",	
+				"European Exploration and the Beginnings of Global Trade",	
+				"The Effects of European Exploration",	
+				"European Colonialism After the Age of Exploration and its Effects",	
+				"Revolution in Europe, Russia, Africa, Asia, and Latin America",	
+				"World War I and WWII",	
+				"The Holocaust",	
+				"The Rise of Fascism",	
+				"Joseph Stalin",	
+				"The Aftermath of World War II and Beyond"
 			]
 		},
 		"arts":{
 			"name": "Fine Arts",
 			"themes": 
 			[
-				
+				"Lascaux Caves",	
+				"The Mythical Story of Romulus and Remus and the Naming of Rome",	
+				"The Terracotta Army",	
+				"The Hagia Sophia",	
+				"Tuvan Throat Singing",	
+				"West Africa (Benin) in the 16th Century",	
+				"Mayan Writing and Hieroglyphics",	
+				"Iroquois and the Longhouse",	
+				"Byzantine Art",	
+				"Giotto and The Gates of Paradise",	
+				"Perspective and Perspective Machines",	
+				"Inca Architecture",	
+				"The Art of Azulejo",	
+				"Classical Gardens of Versailles",	
+				"Faberge Easter Eggs and the Russian Revolution",	
+				"Diego Rivera and Mexican Nationalism",	
+				"Art During World War I: A Portrait",	
+				"Creating Music During War: Claude Debussy",	
+				"Symbolism",	
+				"Naum Gabo",	
+				"Alberto Giacometti",	
+				"Degenerate Art ",	
+				"Holocaust Films",	
+				"Futurism",	
+				"Intonarumori",	
+				"Socialist Realism"	
+	
 			]
 		}
 	},
@@ -420,6 +608,27 @@ var grados =
 			"name":"Math",
 			"themes":
 			[
+				"Geometry: ",	
+				"Lines, Line Segments, Rays and Angles",
+				"Angle Measures",
+				"Classifying Angles",
+				"Angle Relationships",
+				"Parallel Lines",
+				"Triangles",
+				"SSS, SAS, ASA, AAS and HL Congruence",
+				"Angle Bisectors",
+				"Medians and Centroids",
+				"Quadrilaterals",
+				"Polygons",
+				"The Pythagorean Theorem",
+				"Solids",
+				"Volume and Surface Area: Prisms",
+				"Spheres",
+				"Circles",
+				"Arcs and Central Angles",
+				"Transformations",
+				"Constructions",
+				"History of Geometry"	
 
 			]
 		},
@@ -428,7 +637,17 @@ var grados =
 			"name": "Language Arts",
 			"themes":
 			[
-
+				"Grade appropriate vocabulary, reading, writing, and grammar studies, including:",	
+				"Twelve Angry Men",
+				"Animal Farm",
+				"To Kill and Mockingbird",
+				"Cold Equations",
+				"Mr. Parker",
+				"Julius Caesar",
+				"The Pedestrian",
+				"With All Flags Flying",
+				"Of Mice and Men",
+				"Antigone"
 			]
 		},
 		"science": 
@@ -436,6 +655,24 @@ var grados =
 			"name": "Science",
 			"themes":
 			[
+				"Biology: ",
+				"Introduction to Biology",
+				"Branches of Biology",
+				"The Scientific Method",
+				"Matter",
+				"Chemical Reactions",
+				"Water, Mixtures, Solutions, Suspensions",
+				"The Cell Theory",
+				"Cells and their Parts",
+				"DNA",
+				"RNA",
+				"Cell Growth",
+				"Genetics",
+				"Heredity",
+				"The Human Organism",
+				"Food and Nutrition",
+				"Organs",
+				"Development"	
 
 			]
 		},
@@ -443,6 +680,9 @@ var grados =
 			"name": "Social Science",
 			"themes":
 			[
+				"American History I:",
+				"The history of the United States from its founding to The Civil War 	",
+				"Themes of American democracy, civil rights, liberties, economic development, technology, cultural diversity and family life. "	
 
 			]
 		},
@@ -450,7 +690,9 @@ var grados =
 			"name": "Fine Arts",
 			"themes": 
 			[
-				
+				"Global Art Connections I:",
+				"An eclectic look at the history of art including: Islamic art, the architecture of Frank Lloyd Wright, the Baroque, the Impressionists, early Renaissance artists to the greats of the Renaissance. ",
+				"Seventeenth, eighteenth and nineteenth century artists including Rembrandt, Gainsborough, Ingress, Delacroix, Goya, Blake, David, Turner, Constable, Manet, Degas, and Renoir."
 			]
 		}
 	},
@@ -461,7 +703,8 @@ var grados =
 			"name":"Math",
 			"themes":
 			[
-
+				"Algebra II / Statistics:",
+				"Intermediate to advanced algebra skills including expressions, equations, functions, rational numbers, linear equations, proportional reasoning, graphing, polynomials, quadratic and exponential functions."
 			]
 		},
 		"language": 
@@ -469,7 +712,10 @@ var grados =
 			"name": "Language Arts",
 			"themes":
 			[
-
+				"Guided reading of American literature, including Our Town and Glass Menagerie, with poets, novelists and short story writers' techniques examined	",
+				"Daily spelling and vocabulary",
+				"Persuasive and expository writing and outlining",
+				"Writing grammatically correct essays"
 			]
 		},
 		"science": 
@@ -477,21 +723,39 @@ var grados =
 			"name": "Science",
 			"themes":
 			[
-
+				"Chemistry / Social Health and Hygiene:",	
+				"Chemistry and atoms",
+				"Electrons",
+				"Compounds",
+				"Molecular substances",
+				"The periodic table",
+				"Equations",
+				"Reactions",
+				"Elements",
+				"Gases",
+				"Acids, bases, and pH",
+				"Nuclear and organic chemistry",
+				"Personal and social health and hygiene"
 			]
 		},
 		"social":{
 			"name": "Social Science",
 			"themes":
 			[
-
+				"American History II:",	
+				"The history of the United States since 1865 ",
+				"Themes of American democracy, civil rights, liberties, economic development, technology, cultural diversity, family life and the United States' role in world affairs"
 			]
 		},
 		"arts":{
 			"name": "Fine Arts",
 			"themes": 
 			[
-				
+				"The History of Painting & The History of Sculpture:",
+				"The history of painting and sculpture during historical moments including: the Parthenon, The Baroque Style of Bernini, The Hudson River School, George Catlin, and Gustave Caillebotte",
+				"The greats of Medieval art including: Fra Filippo Lippi, Francois Duquesnoy, Gregorio Fernandez, Andrea Pisano, and Fra Angelico",
+				"American artists from the nineteenth century",
+				"American artists from the twentieth century"
 			]
 		}
 	},
@@ -502,7 +766,14 @@ var grados =
 			"name":"Math",
 			"themes":
 			[
-
+				"Pre-calculus",
+				"Trigonometric functions",
+				"Graphs",
+				"Equations",
+				"Parametric equations",
+				"Conics",
+				"Exponential and logarithmic functions",
+				"Calculus"
 			]
 		},
 		"language": 
@@ -510,7 +781,11 @@ var grados =
 			"name": "Language Arts",
 			"themes":
 			[
-
+				"Guided reading of British literature including Macbeth",
+				"World masterpieces including Dante's writing.",
+				"Daily spelling, vocabulary, research and personal writing",
+				"Review of parts of speech",
+				"Online and library research techniques."
 			]
 		},
 		"science": 
@@ -518,6 +793,18 @@ var grados =
 			"name": "Science",
 			"themes":
 			[
+				"Physics:",	
+				"Physics",
+				"Vectors",
+				"Motion",
+				"Momentum",
+				"Thermal energy",
+				"Waves",
+				"Sound",
+				"Light electromagnetic induction ",
+				"Quantum theory",
+				"Solid state electronics",
+				"Community health"	
 
 			]
 		},
@@ -525,14 +812,22 @@ var grados =
 			"name": "Social Science",
 			"themes":
 			[
-
+				"Economics:",	
+				"Fundamental economic concepts",
+				"Microeconomics",
+				"Macroeconomics",
+				"Economic institutions and policies",
+				"International and global economics"	
 			]
 		},
 		"arts":{
 			"name": "Fine Arts",
 			"themes": 
 			[
-				
+				"History of Design:	",
+				"Elements of design including repetition, variety, rhythm, balance, emphasis, economy, controlling attention, viewing angle, viewing distance, conveying an idea, and understanding and valuing what others have created",
+				"Distinguishing between the fine arts and the applied arts",
+				"Designed experiments for line, implied lines, positive and negative areas, descriptive line, shape and form"
 			]
 		}
 	}
