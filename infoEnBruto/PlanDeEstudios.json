@@ -7,7 +7,7 @@ var grados =
 			"name": "Math",
 			"themes":
 			[
-				"Focusing on math review including basic addition and subtraction problems with 2- and 3-digit numbers; ",
+				"Focusing on math review including basic addition and subtraction problems with 2- and 3-digit numbers ",
 				"Multiplication problems as repeated addition problems",
 				"Multiplication tables",
 				"Understanding numbers to 1,000 by various ways of counting, adding and subtracting horizontally and vertically",
@@ -91,7 +91,16 @@ var grados =
 			"name":"Math",
 			"themes":
 			[
-
+				"Focusing on math review including basic addition and subtraction problems with 2- and 3-digit numbers",
+				"Multiplication problems as repeated addition problems",
+				"Multiplication tables",
+				"Understanding numbers to 1,000 by various ways of counting, adding and subtracting horizontally and vertically",
+				"Telling time",
+				"Measuring",
+				"Regrouping",
+				"Beginning geometry",
+				"Fractions",
+				"Multiplication"
 			]
 		},
 		"language": 
@@ -99,7 +108,14 @@ var grados =
 			"name": "Language Arts",
 			"themes":
 			[
-
+				"Learning to develop basic reading skills",
+				"Vocabulary",
+				"Reading for information using classic children stories including: Cinderella, A Christmas Carol, Hansel and Gretel, Peter Pan, and Greek and Roman myth",
+				"Enjoying poetry",
+				"Sayings and phrases",
+				"Beginning to understand parts of speech",
+				"Sentences",
+				"Using proper punctuation"
 			]
 		},
 		"science": 
@@ -107,21 +123,40 @@ var grados =
 			"name": "Science",
 			"themes":
 			[
-
+				"Introducing the cycles of life from birth to death",
+				"Zoology",
+				"Botany",
+				"Beginning with the seasons.",
+				"Presenting experiments to see the world",
+				"Understanding health and human growth",
+				"Introduction to chemistry",
+				"Physics",
+				"Astronomy",
+				"Earth science",
+				"Meteorology"
 			]
 		},
 		"social":{
 			"name": "Social Science",
 			"themes":
 			[
-
+				"Beginning to use maps to find oceans, continents, and the four cardinal directions	",
+				"Looking at geography	",
+				"Early history of Mexico, Central America, South America, the Mediterranean countries, Africa, India, China.	",
+				"Beginning American history to 1776	"
 			]
 		},
 		"arts":{
 			"name": "Fine Arts",
 			"themes": 
 			[
-
+				"Introducing music and the instruments in the orchestra",
+				"Kinds of music",
+				"Chopin",
+				"Architecture of the Greeks",
+				"Painters including: El Greco, Miro, Charles Demuth, Pieter Bruegel and Jan Vermeer",
+				"Observing and appreciating sculpture and color.",
+				"Acting in a play"
 			]
 		}
 	},
@@ -132,7 +167,14 @@ var grados =
 			"name":"Math",
 			"themes":
 			[
-
+				"Telling time",
+				"Numbers and money into the 100,000's",
+				"Multiplying and dividing numbers from six to nine",
+				"Introduction to geometry, algebra and adding and subtracting number in the thousands",
+				"Practicing mental addition",
+				"Word problems",
+				"Fractions",
+				"Estimation"
 			]
 		},
 		"language": 
@@ -140,7 +182,12 @@ var grados =
 			"name": "Language Arts",
 			"themes":
 			[
-
+				"Developing and extending basic writing skills spelling rules, word derivations, word roots, parts of a sentence and parts of speech",
+				"Reading biographies of famous people",
+				"Alice's Adventures in Wonderland",
+				"Pollyanna",
+				"Sayings and phrases",
+				"Myths and legends from all lands"
 			]
 		},
 		"science": 
@@ -148,21 +195,44 @@ var grados =
 			"name": "Science",
 			"themes":
 			[
-
+				"Studying seeds and plants",
+				"The balance of nature",
+				"Pollution",
+				"The brain",
+				"Matter",
+				"Earth's rocks",
+				"Discussion of forces",
+				"Atoms",
+				"Machines",
+				"Metals and electricity in the physical sciences",
+				"Introducing chemistry and astronomy",
+				"Gravity",
+				"The solar system",
+				"Comparing the earth and the moon",
+				"Reading biographies of scientists: John Muir, Jane Goodall, Edward Jenner, and Elijah McCoy"
 			]
 		},
 		"social":{
 			"name": "Social Science",
 			"themes":
 			[
-
+				"Reading and using maps"
+				"Globes and graphs"
+				"The history of world civilizations including Ancient Rome, the Byzantine Empire, and Islam"
+				"American Indian civilizations through early English settlements,"
+				"History of the high civilizations of Africa to slavery"
+				"Growth of the American colonies through The Declaration of Independence."
 			]
 		},
 		"arts":{
 			"name": "Fine Arts",
 			"themes": 
 			[
-				
+				"Beginning study of music with instruments"
+				"Percussion, tempo and rhythm"
+				"Developing imagination"
+				"Basic art techniques and art elements including design, mosaic, murals, patterns, lines, colors, quilt making, architecture and puppetry"
+				"Meeting artists including Grandma Moses, George Gershwin, Aaron Copland, Duke Ellington, Diana Ross, Joan Baez, and Georgia O’Keeffe"
 			]
 		}
 
@@ -174,7 +244,15 @@ var grados =
 			"name":"Math",
 			"themes":
 			[
-
+				"Studying how to multiply and divide by two-digit numbers",
+				"Three-digit numbers",
+				"Practicing mental arithmetic with emphasis on place value, estimations, and checking of work",
+				"Introducing basic geometry",
+				"Working with decimals",
+				"Roman numerals",
+				"Probability, word problems",
+				"Knowing how to convert units of measurement",
+				"Working with fractions and money"
 			]
 		},
 		"language": 
@@ -182,7 +260,13 @@ var grados =
 			"name": "Language Arts",
 			"themes":
 			[
-
+				"Developing basic skills in reading",
+				"vocabulary building",
+				"recognizing parts of speech",
+				"usage of subjects and predicate",
+				"correct grammar",
+				"Reading classics by Homer, Shakespeare, Cervantes, Robert Lewis Stevenson, Washington Irving, and Mark Twain",
+				"Legends, speeches, and poetry"
 			]
 		},
 		"science": 
@@ -190,13 +274,28 @@ var grados =
 			"name": "Science",
 			"themes":
 			[
-
+				"Discussing the history of the earth, rocks, and fossils",
+				"Sources of energy; weather; electricity and magnets",
+				"Fossil fuels",
+				"Hydroelectricity",
+				"Electric power from nuclear fission",
+				"Solar energy",
+				"Geothermal energy",
+				"Health",
+				"Respiratory and circulatory systems",
+				"Personal hygiene",
+				"Introduction to noted scientists."
 			]
 		},
 		"social":{
 			"name": "Social Science",
 			"themes":
 			[
+				"Focusing on world geography",
+				"Map reading",
+				"Prominent physical features",
+				"Historical events from the Stone Age, through the Middle Ages to the Renaissance",
+				"American history from the Revolution to the Civil War"
 
 			]
 		},
@@ -204,7 +303,10 @@ var grados =
 			"name": "Fine Arts",
 			"themes": 
 			[
-				
+				"Studying music including basic keyboard, chords, and chord progressions",
+				"Famous paintings, artists and cartoonists",
+				"Introduction to architecture and cathedrals",
+				"Masters of art including Brunelleschi, Michelangelo, Raphael, Leonardo da Vinci, Van Eyck, Rembrandt, Jacques-Louis David, and cartoonists including Shultz, Davis and Nash"
 			]
 		}
 	},
@@ -215,7 +317,21 @@ var grados =
 			"name":"Math",
 			"themes":
 			[
-
+				"Reviewing math skills including:",
+				"addition",
+				"multiplication",
+				"division",
+				"mixed numbers",
+				"numbers to billions",
+				"decimals",
+				"tables and graphing",
+				"geometric figures",
+				"multiplying and dividing fractions",
+				"areas",
+				"word problems",
+				"functions",
+				"equations",
+				"ratios"
 			]
 		},
 		"language": 
@@ -223,7 +339,16 @@ var grados =
 			"name": "Language Arts",
 			"themes":
 			[
-
+				"Comprehension and interpretation in reading fables, myths, non-fiction writing and classics including Tom Sawyer, Julius Caesar, Don Quixote, and Homer's Iliad and Odyssey",
+				"Vocabulary",
+				"Syllables",
+				"Word division",
+				"Capitalization",
+				"Abbreviations",
+				"Parts of speech",
+				"Verb tenses",
+				"Writing poetry",
+				"Original stories"
 			]
 		},
 		"science": 
@@ -231,21 +356,43 @@ var grados =
 			"name": "Science",
 			"themes":
 			[
-
+				"Studying animal, matter and plant classification",
+				"Reproduction in plants and animals",
+				"Weather and climate patterns",
+				"Photosynthesis",
+				"Physics",
+				"Energy",
+				"Engines",
+				"Electricity",
+				"Power",
+				"Stars",
+				"Earth's structure",
+				"Health and personal hygiene."
 			]
 		},
 		"social":{
 			"name": "Social Science",
 			"themes":
 			[
-
+				"Clarifying map skills"
+				"Early American histor including the first explorers, colonization, independence, the Civil War, Reconstruction, expansion into the wild west, immigration",
+				"History of early twentieth century of the United States",
+				"Introducing European history including: the Renaissance, the Reformation, the growth of English power, the Enlightenment, revolutions of France",
+				"Discussing Japan, Russia"
 			]
 		},
 		"arts":{
 			"name": "Fine Arts",
 			"themes": 
 			[
-				
+				"Exploring music",
+				"Harmony",
+				"Melody",
+				"The keyboards",
+				"The orchestra",
+				"Musicians including Mozart, Rossini and Sousa",
+				"The history of painting and biographies of great artists including Ingres, Delacroix, El Greco, Michelangelo, Raphael, and Leonardo de Vinci",
+				"Reviewing architecture including the study of buildings such as The Palace of Versailles, Saint Paul’s Cathedral, Moorish style, and buildings by Inigo Jones, John Soane, Mies van der Rohe, Louis Sullivan, Frank Lloyd Wright, and Walter Gropius",
 			]
 		}
 	},
@@ -256,7 +403,23 @@ var grados =
 			"name":"Math",
 			"themes":
 			[
-
+				"Place value",
+				"Estimation",
+				"Properties",
+				"Division",
+				"Decimals",
+				"Fractions",
+				"Reciprocals",
+				"Expressions",
+				"Exponents",
+				"Exponent notation",
+				"Order of operations",
+				"Frequency tables",
+				"Adding and subtracting units of time",
+				"Percents",
+				"Introduction to geometry",
+				"Integers",
+				"Coordinate graphing"
 			]
 		},
 		"language": 
@@ -264,7 +427,11 @@ var grados =
 			"name": "Language Arts",
 			"themes":
 			[
-
+				"Improving comprehension and reading using Romeo and Juliet, Oliver Twist, The Secret Garden, Animal Farm, and The Diary of Anne Frank",
+				"Poetry, myths, phrases, sayings and other adventure and mystery classics",
+				"Studying daily vocabulary",
+				"Commonly misspelled words",
+				"How to write original compositions, reports, poetry, friendly and business letters including sentence structure, parts of speech, and research skills"
 			]
 		},
 		"science": 
@@ -272,21 +439,53 @@ var grados =
 			"name": "Science",
 			"themes":
 			[
-
+				"Examining the classifying of life forms",
+				"Reproduction",
+				"Heredity",
+				"Genetics",
+				"Matter",
+				"Space",
+				"Light",
+				"Sound",
+				"Energy sources",
+				"Body systems",
+				"Crust history",
+				"Electricity",
+				"Chemistry",
+				"Plant reproduction",
+				"Health and personal hygiene",
+				"Introducing scientists"
 			]
 		},
 		"social":{
 			"name": "Social Science",
 			"themes":
 			[
-
+				"Studying maps with focus on vegetation, minerals, demographics, weather and economy of Asia, Africa, Australia, New Zealand, and the Pacific Islands",
+				"Examining ancient history including the civilizations of Egypt, Greece, Southwest Asia, Rome, and Europe",
+				"The Middle Ages",
+				"The revolutions of Latin America",
+				"The discovery of Americ",
+				"The industrial revolution",
+				"The British Empire",
+				"Missionaries",
+				"Explorers",
+				"World War I",
+				"The depression",
+				"World War II",
+				"The twentieth century"
 			]
 		},
 		"arts":{
 			"name": "Fine Arts",
 			"themes": 
 			[
-				
+				"Studying the musical keyboard",
+				"Chords",
+				"Patterns in music",
+				"Musicians including Aaron Copland, Mozart, Gershwin, Joplin, Berlin, and Chopin.",
+				"Looking at the visual arts and the artists including Tanner, Homer, van Gogh, Monet, Rodin, Kandinsky, Munch, Picasso, Mondrian, Hopper, Wyeth, and Frank Lloyd Wright",
+				"Examining dance with Stravinsky's Rite of Spring"
 			]
 		}
 	},
