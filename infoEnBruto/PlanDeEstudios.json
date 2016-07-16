@@ -1,0 +1,131 @@
+var grados = 
+[
+	{
+		"name": "Grade 1",
+		"math" :
+		{
+			"name": "Math",
+			"themes":
+			[
+				"Focusing on math review including basic addition and subtraction problems with 2- and 3-digit numbers; ",
+				"Multiplication problems as repeated addition problems",
+				"Multiplication tables",
+				"Understanding numbers to 1,000 by various ways of counting, adding and subtracting horizontally and vertically",
+				"Telling time",
+				"Measuring",
+				"Regrouping",
+				"Beginning geometry",
+				"Fractions",
+				"Multiplication"
+			]
+		},
+		"language":
+		{
+			"name": "Language Arts",
+			"themes" : 
+			[
+				"Listening skills and beginning reading",
+				"Fairy tales",
+				"Nursery rhymes",
+				"Myths",
+				"Riddles",
+				"Aesop’s Fables",
+				"Simple sentence writing",
+				"Introduction to punctuation signs"
+			]
+		},
+		"science":
+		{
+			"name": "Science",
+			"themes":
+			[
+				"General Science",
+				"Living Things and Their Habitats: Deserts &oceans",
+				"The Food Chain",
+				"Dinosaurs",
+				"Introduction to the body",
+				"Matter",
+				"Units of Measurement",
+				"The Environment",
+				"Plants",
+				"Animals,",
+				"The solar system",
+				"Measuring the seasons"
+			]
+		},
+		"social":
+		{
+			"name": "Social Science",
+			"themes":
+			[
+				"An introduction to the Ice Age,",
+				"Egypt",
+				"Mesopotamia",
+				"Hammurabi",
+				"Crossing the Land Bridge",
+				"Early American history",
+				"World religions"
+			]
+		},
+		"arts":
+		{
+			"name":"Fine Arts",
+			"themes":
+			[
+				"Visual art history",
+				"Color, Drawing",
+				"Shapes, Texture",
+				"Portraits, Murals",
+				"Orchestra instruments",
+				"The Orchestra",
+				"Great Composers",
+				"Dance ",
+				"Music"
+			]
+		}
+	},
+	{
+		"name": "Grade 2"
+		
+	},
+	{
+		"name": "Grade 3"
+		
+	},
+	{
+		"name": "Grade 4"
+		
+	},
+	{
+		"name": "Grade 5"
+		
+	},
+	{
+		"name": "Grade 6"
+		
+	},
+	{
+		"name": "Grade 7"
+		
+	},
+	{
+		"name": "Grade 8"
+		
+	},
+	{
+		"name": "Grade 9"
+		
+	},
+	{
+		"name": "Grade 10"
+		
+	},
+	{
+		"name": "Grade 11"
+		
+	},
+	{
+		"name": "Grade 12"
+		
+	}
+]
