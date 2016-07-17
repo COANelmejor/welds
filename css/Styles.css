@@ -1,0 +1,92 @@
+body{
+	background-color: white;
+}
+header{
+	background-color: #FF9B2A;
+	color: white;
+}
+.navbar{
+	margin-bottom: 0;
+
+}	
+.jumbotron{
+background: #428BCA;
+color: #fff;
+margin-top: 50px
+}
+
+footer{
+	padding: 5px;
+	background-color: #428BCA;
+	color: white;
+}
+footer a{
+	color: white;
+}
+/* Post(s)*/
+.main{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.post{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+.post .post-title a{
+	color: #333;
+}
+.post .la{
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.post .thumb{
+	margin-right: 10px;
+	width: 40%;
+}
+.post .thumb img{
+	width: 100%;
+}
+.post .contenedor-botones {
+	width: 100%
+}
+/* EndPost(s)*/
+
+/* Media Query*/
+@media screen and (max-width:768px){
+	.post .thumb{
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
+/* EndMediaQuery*/
+
+/* PersonalsColor*/
+.color1{
+	background-color: #001AFF;
+	color: #76FF26;
+}
+.color2{
+	background-color: #FF7544;
+	color: white;
+}
+.color3{
+	background-color: #00B28D;
+	color: #B2370C;
+}
+.color4{
+	background-color: #B2370C;
+	color: #FFF0B9;
+}
+
+.color5{
+	background-color: #6D50B2;
+	color: #FFF688;
+}
+.color6{
+	background-color: #4D55B2;
+	color: #B2A161;
+
+}
+/* EndPersonalsColor*/

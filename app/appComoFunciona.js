@@ -28,15 +28,10 @@ var sec3 = {
 
 var sec4 = {
 	"titulo":"¿En qué momento me puedo integrar al programa de estudio?",
-	"contenido":""
+	"contenido":"En cualquier momento, dada su naturaleza de principio, un alumno puede integrarse en el momento que lo desee y comenzar sus estudios."
 };
 
 var sec5 = {
-	"titulo":"",
-	"contenido":""
-};
-
-var sec6 = {
-	"titulo":"",
-	"contenido":""
+	"titulo":"¿Hay algún costo adicional?",
+	"contenido":"Únicamente en el momento que el alumno se gradúa tiene un costo adicional de $60.00 por los trámites de acreditación consular del título. </br> Queda también pendientes, los costos del acto de graduación a llevarse a cabo en el país."
 };
