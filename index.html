@@ -36,15 +36,29 @@
 
       <!--Sección 1 del contenido-->
 
-
+      <article class="jumbotron eduEnCasa2" id="inicioHeader">
+        <h1 class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-6 col-md-offset-1 vcenter text-center"><strong>{{inicio.primero.titulo}}</strong></h1>
+      </article>
 
       <!--Sección 3 del contenido-->
 
-
+      <article class="content-fluid row backPar bg-info infoIcon">
+      <div ng-repeat="icono in inicio.tercero.contenido">
+        <div class="col-xs-12 col-sm-6 col-md-3 text-center " >
+        <div class="bg-info" style="margin:5px;padding:10px; height: 100%;">
+          <i class="fa {{icono.icon}} fa-5x " aria-hidden="true"></i>
+          <h4>{{icono.texto}}</h4>
+        </div>
+        </div>
+      </div>
+      </article>
 
       <!--Sección 2 del contenido-->
 
       <article class="content-fluid row backPar eduEnCasa">
+        <div class="col-xs-12 col-md-5 col-md-offset-1">
+          <img src="images/home_languageschool_choose_language.png" alt="" class="img-responsive">
+        </div>
         <div class="col-xs-12 col-md-5 btn-default">
           <h2>{{inicio.quinto.titulo}}</h2>
           <p>{{inicio.quinto.contenido}}</p> 
