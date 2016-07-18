@@ -90,37 +90,41 @@ var app = angular.module('appNav', [ ]);
 		}
 	]};
 
-	var sec4 = {
-		"titulo": "La llave para el futuro de sus hijos",
-		"articulos": [{
-			"titulo": "E-Books y Lecciones",
-			"image": "Grupo de adolescentes estudiando en grupo.",
-			"contenido": [
-				"Cada curso cuenta con un grupo de libros digitales y lecciones para que los alumnos puedan estudiar, estos mismos están diseñados para que los alumnos puedan ir aprendiendo a su paso."
-			]
-		}, {
-			"titulo": "Reporte de Avances",
-			"image": "Adolescente mujer estudiando en la biblioteca.",
-			"contenido": [
-				"Podrá observar en tiempo real los avances del alumno, lecciones aprendidas, punteos y cursos superados."
-			]
-
-		}, {
-
-			"titulo": "Evaluaciones Periódicas",
-			"image": "Mujer adulta maestra.",
-			"contenido": [
-				"Contamos con evaluaciones para medir el desempeño y lo aprendido para los alumnos."
+	var sec4 = 
+	[
+		{
+			"titulo": "La llave para el futuro de sus hijos",
+			"articulos": [{
+				"titulo": "E-Books y Lecciones",
+				"image": "Grupo de adolescentes estudiando en grupo.",
+				"contenido": [
+					"Cada curso cuenta con un grupo de libros digitales y lecciones para que los alumnos puedan estudiar, estos mismos están diseñados para que los alumnos puedan ir aprendiendo a su paso."
 				]
-			}
-		]
-	};
+			}, {
+				"titulo": "Reporte de Avances",
+				"image": "Adolescente mujer estudiando en la biblioteca.",
+				"contenido": [
+					"Podrá observar en tiempo real los avances del alumno, lecciones aprendidas, punteos y cursos superados."
+				]
+
+			}, {
+
+				"titulo": "Evaluaciones Periódicas",
+				"image": "Mujer adulta maestra.",
+				"contenido": [
+					"Contamos con evaluaciones para medir el desempeño y lo aprendido para los alumnos."
+					]
+				}
+			]
+		}
+	];
+
 	var sec5 = {
 		"titulo": "Enseñanza con Valores",
 		"contenido": [
 			"Nuestros planes educativos contienes dolidos valores para que los alumnos puedan desempeñarse en un mundo laboral activo."
 		]
-	};
+	}
 
 	//Contenido de comoFunciona.html
 	app.controller('contentComoFunciona', function(){
