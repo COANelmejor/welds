@@ -12,10 +12,15 @@ var app = angular.module('appNav', [ ]);
 
 	//Botones para el nav
 
+	/*Se inicia el controller*/
+	/* keyword       nombre          inicia Controler*/
 	app.controller('navController', function(){
+		/*Asignamos un método a las variables que tienen el contenido*/
+		/* metodo    variable que tiene el contenido*/
 		this.navs = botones;	
 	})
 
+	/*Declaramos las variables y sus contenidos para usar el controller*/
 	var botones = [
 		{
 			"name":"Inicio",
