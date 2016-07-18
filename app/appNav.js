@@ -165,6 +165,9 @@ var app = angular.module('appNav', [ ]);
 	};
 
 	//Contenido de planDeEstudios.html
+	app.controller('contentGrado', function(){
+		this.contentGrado = gradoApp;
+	})
 
 	var gradoApp = 
 	[
