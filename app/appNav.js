@@ -392,11 +392,11 @@ var app = angular.module('appNav', [ ]);
 				"name": "Social Science",
 				"themes":
 				[
-					"Reading and using maps"
-					"Globes and graphs"
-					"The history of world civilizations including Ancient Rome, the Byzantine Empire, and Islam"
-					"American Indian civilizations through early English settlements,"
-					"History of the high civilizations of Africa to slavery"
+					"Reading and using maps",
+					"Globes and graphs",
+					"The history of world civilizations including Ancient Rome, the Byzantine Empire, and Islam",
+					"American Indian civilizations through early English settlements,",
+					"History of the high civilizations of Africa to slavery",
 					"Growth of the American colonies through The Declaration of Independence."
 				]
 			},
@@ -404,10 +404,10 @@ var app = angular.module('appNav', [ ]);
 				"name": "Fine Arts",
 				"themes": 
 				[
-					"Beginning study of music with instruments"
-					"Percussion, tempo and rhythm"
-					"Developing imagination"
-					"Basic art techniques and art elements including design, mosaic, murals, patterns, lines, colors, quilt making, architecture and puppetry"
+					"Beginning study of music with instruments",
+					"Percussion, tempo and rhythm",
+					"Developing imagination",
+					"Basic art techniques and art elements including design, mosaic, murals, patterns, lines, colors, quilt making, architecture and puppetry",
 					"Meeting artists including Grandma Moses, George Gershwin, Aaron Copland, Duke Ellington, Diana Ross, Joan Baez, and Georgia O’Keeffe"
 				]
 			}
@@ -550,7 +550,7 @@ var app = angular.module('appNav', [ ]);
 				"name": "Social Science",
 				"themes":
 				[
-					"Clarifying map skills"
+					"Clarifying map skills",
 					"Early American histor including the first explorers, colonization, independence, the Civil War, Reconstruction, expansion into the wild west, immigration",
 					"History of early twentieth century of the United States",
 					"Introducing European history including: the Renaissance, the Reformation, the growth of English power, the Enlightenment, revolutions of France",
@@ -829,7 +829,7 @@ var app = angular.module('appNav', [ ]);
 				"name":"Math",
 				"themes":
 				[
-					"Algebra I: "
+					"Algebra I: ",
 					"Evaluating Expressions",	
 					"Writing Equations and Inequalities",	
 					"Math Properties",	
