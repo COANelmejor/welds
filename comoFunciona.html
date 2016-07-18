@@ -1,0 +1,121 @@
+<!doctype html>
+<html ng-app="appNav">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Frameworks-->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <title>Welds.org</title>
+    
+  </head>
+  <body>
+    <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top arriba">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-namePg">
+            <span class="sr-only">Desplegar / Ocultar Menu</span>
+            <i class="fa fa-caret-square-o-down fabtn" aria-hidden="true"></i>
+          </button>
+          <a href="index.html" class="navbar-brand">Welds</a>
+        </div>
+        <!-- Menu -->
+        <div ng-controller="navController as barra" class="collapse navbar-collapse" id="nav-namePg">
+          <ul  class="nav navbar-nav">
+            <li class="active" ng-repeat="boton in barra.navs"><a href="{{boton.link}}">{{boton.name}}</a></li>  
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Inicia el contenido de la Página-->
+
+    <!--Controler de todo el contenido-->
+
+    <section ng-controller="contentInicio as inicio">
+
+      <!--Sección 1 del contenido-->
+
+      <article class="jumbotron" id="inicioHeader">
+        <h1 class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-6 col-md-offset-1 vcenter text-center"><strong>{{inicio.primero.titulo}}</strong></h1>
+      </article>
+
+      <!--Sección 3 del contenido-->
+
+      <article class="content-fluid row backPar bg-info infoIcon">
+      <div ng-repeat="icono in inicio.tercero.contenido">
+        <div class="col-xs-12 col-sm-6 col-md-3 text-center " >
+        <div class="bg-info" style="margin:5px;padding:10px; height: 100%;">
+          <i class="fa {{icono.icon}} fa-5x " aria-hidden="true"></i>
+          <h4>{{icono.texto}}</h4>
+        </div>
+        </div>
+      </div>
+      </article>
+
+      <!--Sección 2 del contenido-->
+
+      <article class="content-fluid row backPar eduEnCasa">
+        <div class="col-xs-12 col-md-5 col-md-offset-1">
+          <img src="images/home_languageschool_choose_language.png" alt="" class="img-responsive">
+        </div>
+        <div class="col-xs-12 col-md-5 btn-default">
+          <h2>{{inicio.quinto.titulo}}</h2>
+          <p>{{inicio.quinto.contenido}}</p> 
+          <h2>{{inicio.segundo.titulo}}</h2>
+          <p ng-repeat="parrafo in inicio.segundo.contenido">{{parrafo}}</p>
+        </div>
+        <p></p>
+      </article>
+      <!--Section 5 del Contenido-->
+      <article class="content-fluid row backPar bg-info">
+      <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3 text-center">
+    
+      </div>
+
+      </article>
+      <!--Section 4 del contendido-->
+      
+    <article class="content-fluid row backPar artInfo">
+    <h2 class="text-center"><strong>{{inicio.cuarto.titulo}}</strong></h2>
+    <div ng-repeat="arts in inicio.cuarto.articulos" class="col-xs-12 col-sm-6 col-md-4">
+      <div>
+        <img ng-src="{{arts.image}}" class="img-responsive">
+        <h3>{{arts.titulo}}</h3> 
+        <div ng-repeat="contenido in arts.contenido">
+          <p>{{contenido}}</p>  
+        </div>
+      </div>
+    </div>
+    </article>
+
+     
+
+    <!--Termina el contenido de la Página-->
+
+    <nav role="navigation" class="navbar navbar-inverse noMarginBot">
+      <div class="container">
+      <br>
+        <p class="text-center hidden-lg hidden-md">© 2016 Welds Homeschooling.<br>Todos los derechos reservados.</p>
+        <p class="text-center hidden-xs hidden-sm">© 2016 Welds Homeschooling. Todos los derechos reservados.</p>
+
+        
+      </div>
+    </nav>
+
+    <!--Scripts extras-->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>-->
+    <!--App Angular-->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="app/appNav.js"></script>
+    <script>
+  
+  </script>
+  </body>
+</html>
+
+
+
+
