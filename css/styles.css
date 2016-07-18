@@ -146,7 +146,11 @@ margin-bottom: 20px;
 }
 /*Fondos y estilos de sections*/
 .eduEnCasa2{
-		background-image: url("../images/o-CHILD-WITH-IPAD.jpg");
+	background-image: url("../images/o-CHILD-WITH-IPAD.jpg");
+	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
 
 }
 .eduEnCasa
