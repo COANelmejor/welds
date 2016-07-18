@@ -76,33 +76,32 @@ var app = angular.module('appNav', [ ]);
 	var sec3 = {
 		"contenido": [
 			{
-			"texto":"Graduación en reconocida por el US Departmet of Education",
+			"texto":"Graduación reconocida por el US Departmet of Education",
 			"icon":"fa-graduation-cap"
 			},{
-			"texto":"Entrar a Universidades Americanas",
-			"icon":"fa-lightbulb-o"
-			},{
 			"texto":"Cursos en Ingles",
-			"icon":"fa-book"
+			"icon":"fa-globe"
+			},{
+			"texto":"Entrar a Universidades Americanas",
+			"icon":"fa-university"
 			},{
 			"texto":"Plataforma educativa online",
-			"icon":"fa-pencil"
+			"icon":"fa-chrome"
 		}
 	]};
 
-	var sec4 = 
-	[
-		{
+	var sec4 = {
 			"titulo": "La llave para el futuro de sus hijos",
-			"articulos": [{
+			"articulos": [
+				{
 				"titulo": "E-Books y Lecciones",
-				"image": "Grupo de adolescentes estudiando en grupo.",
+				"image": "images/home_languageschool_course1.jpg",
 				"contenido": [
 					"Cada curso cuenta con un grupo de libros digitales y lecciones para que los alumnos puedan estudiar, estos mismos están diseñados para que los alumnos puedan ir aprendiendo a su paso."
 				]
 			}, {
 				"titulo": "Reporte de Avances",
-				"image": "Adolescente mujer estudiando en la biblioteca.",
+				"image": "images/home_languageschool_course2.jpg",
 				"contenido": [
 					"Podrá observar en tiempo real los avances del alumno, lecciones aprendidas, punteos y cursos superados."
 				]
@@ -110,44 +109,39 @@ var app = angular.module('appNav', [ ]);
 			}, {
 
 				"titulo": "Evaluaciones Periódicas",
-				"image": "Mujer adulta maestra.",
+				"image": "images/home_languageschool_course3.jpg",
 				"contenido": [
 					"Contamos con evaluaciones para medir el desempeño y lo aprendido para los alumnos."
 					]
 				}
 			]
-		}
-	];
+		};
 
 	var sec5 = {
 		"titulo": "Enseñanza con Valores",
-		"contenido": [
+		"contenido": 
 			"Nuestros planes educativos contienes dolidos valores para que los alumnos puedan desempeñarse en un mundo laboral activo."
-		]
+		
 	}
 
 	//Contenido de comoFunciona.html
 	app.controller('contentComoFunciona', function(){
-		this.primero = fucniona1;
-		this.segundo = funciona2;
-		this.tercero = funciona3;
-		this.cuarto	= funciona4;
-		this.quinto = funciona5;
+		this.contenido = fucniona;
 	})
 
-	var fucniona1 = {
+	var funciona = [
+	{
 		"titulo": "Como Funciona?",
 		"sub":"¿Como Me Inscribo?",
-		"contenido":"Los Pasos que debes seguir son los siguientes: ",
+		"contenido":["Los Pasos que debes seguir son los siguientes: "],
 		"lista":[
 			"Ponte en contacto a través de nuestra página y se solicitara algunos documentos necesarios para la inscripción.",
 			"Debes realizar un examen de ubicación, el cual podrá ser en línea, cualquier día y cualquier hora o en nuestras instalaciones, previa cita de día y horario disponible.",
 			"El examen de ubicación tiene un costo de $75.00.",
 			"Luego se te enviará vía correo electrónico todos los pasos para necesarios para la inscripción, pago de cuotas, entrega de materiales y la adjudicación de usuario dentro de la plataforma educativa.",
 			"Listo, puedes empezar a estudiar a tu ritmo, con tu horario y con disponibilidad de tutorías."
-		]};
-
-	var funciona2 = {
+		]
+	},{
 		"titulo":"¿Cómo funciona la plataforma educativa?",
 		"lista":[
 			"El alumno recibe con la inscripción todo el material que va a utilizar.",
@@ -156,22 +150,27 @@ var app = angular.module('appNav', [ ]);
 			"Recibirás informes y evaluaciones para conocer avances de lo aprendido.",
 			"Tienes acceso desde cualquier dispositivo con acceso a internet, 24/7 (no aplica a tutorías)."
 		],
-	};
-
-	var funciona3 = {
+	},{
 		"titulo":"¿Cómo obtengo mis documentos de grados aprobados?",
-		"contnido":"Por medio de nuestra plataforma se mantendrá la información permanente de los avances del estudiante y cuando este complete un grado en particular, será notificado y se le entregará sus respectivas constancias de aprobación."
-	};
-
-	var funciona4 = {
+		"contenido":
+		[
+			"Por medio de nuestra plataforma se mantendrá la información permanente de los avances del estudiante y cuando este complete un grado en particular, será notificado y se le entregará sus respectivas constancias de aprobación."
+		]
+	},{
 		"titulo":"¿En qué momento me puedo integrar al programa de estudio?",
-		"contenido":"En cualquier momento, dada su naturaleza de principio, un alumno puede integrarse en el momento que lo desee y comenzar sus estudios."
-	};
-
-	var funciona5 = {
+		"contenido":
+		[
+			"En cualquier momento, dada su naturaleza de principio, un alumno puede integrarse en el momento que lo desee y comenzar sus estudios."
+		]
+	},{
 		"titulo":"¿Hay algún costo adicional?",
-		"contenido":"Únicamente en el momento que el alumno se gradúa tiene un costo adicional de $60.00 por los trámites de acreditación consular del título. </br> Queda también pendientes, los costos del acto de graduación a llevarse a cabo en el país."
-	};
+		"contenido":
+		[
+			"Únicamente en el momento que el alumno se gradúa tiene un costo adicional de $60.00 por los trámites de acreditación consular del título.",
+			"Queda también pendientes, los costos del acto de graduación a llevarse a cabo en el país."
+		]
+		}
+	];
 
 	//Contenido de planDeEstudios.html
 	app.controller('contentGrado', function(){

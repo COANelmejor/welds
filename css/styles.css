@@ -1,13 +1,20 @@
 body{
-	background-color: white;
-	background-image: url("../images/o-CHILD-WITH-IPAD.jpg");
+
 	background-position: center center;
   	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: cover;
-  	background-color: #464646;
+
 
   	
+}
+.bodyInicio{
+	background-image: url("../images/o-CHILD-WITH-IPAD.jpg") !important;
+
+}
+.noMarginBot{
+	margin-bottom: 0px !important;
+	color:#DDDDDD;
 }
 .row {
 	margin-right: 0px !important; 
@@ -128,21 +135,6 @@ margin-bottom: 20px;
   	background-attachment: fixed;
   	background-size: cover;
 }
-.backImpar{
-	padding-top: 10px;
-	padding-bottom: 10px;
-
-	
-	background-position: center center;
-  	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	background-size: cover;
-}
-.eduEnCasa
-{
-	background-image: url("../images/home_languageschool_choose_language_bg.jpg");
-
-}
 .infoIcon{
 	transition: 0.5s
 	background-color: #EEEEEE
@@ -150,4 +142,21 @@ margin-bottom: 20px;
 .infoIcon:hover{
 	transition:0.5s;
 	background-color: #FFFFFF
+}
+/*Fondos y estilos de sections*/
+.eduEnCasa2{
+		background-image: url("../images/o-CHILD-WITH-IPAD.jpg");
+
+}
+.eduEnCasa
+{
+	background-image: url("../images/home_languageschool_choose_language_bg.jpg");
+
+}
+
+.artInfo
+{
+	background-image: url("../images/home_languageschool_choose_course_bg_azul.jpg");
+	color: #DDDDFF
+
 }
