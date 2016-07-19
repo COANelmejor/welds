@@ -28,9 +28,9 @@ var app = angular.module('appNav', [ ]);
 		},{
 			"name":"Cómo Funciona",
 			"link":"comoFunciona.html"
-		},{
+		/*},{
 			"name":"Costos",
-			"link":"costos.html"
+			"link":"costos.html"*/
 		},{
 			"name":"Graduaciones USDE",
 			"link":"graduacionesUSDE.html"
@@ -181,6 +181,7 @@ var app = angular.module('appNav', [ ]);
 
 	//Contenido de planDeEstudios.html
 	app.controller('contentGrado', function(){
+		this.titulo = "Plan de Estudios";
 		this.contentGrado = gradoApp;
 	})
 
@@ -188,6 +189,7 @@ var app = angular.module('appNav', [ ]);
 	[
 		{
 			"name": "Grade 1",
+			"number":1,
 			"math" :
 			{
 				"name": "Math",
@@ -272,6 +274,7 @@ var app = angular.module('appNav', [ ]);
 		},
 		{
 			"name": "Grade 2",
+			"number":2,
 			"math": 
 			{
 				"name":"Math",
@@ -348,6 +351,7 @@ var app = angular.module('appNav', [ ]);
 		},
 		{
 			"name": "Grade 3",
+			"number":3,
 			"math": 
 			{
 				"name":"Math",
@@ -421,10 +425,10 @@ var app = angular.module('appNav', [ ]);
 					"Meeting artists including Grandma Moses, George Gershwin, Aaron Copland, Duke Ellington, Diana Ross, Joan Baez, and Georgia O’Keeffe"
 				]
 			}
-
 		},
 		{
 			"name": "Grade 4",
+			"number":4,
 			"math": 
 			{
 				"name":"Math",
@@ -498,6 +502,7 @@ var app = angular.module('appNav', [ ]);
 		},
 		{
 			"name": "Grade 5",
+			"number":5,
 			"math": 
 			{
 				"name":"Math",
@@ -584,6 +589,7 @@ var app = angular.module('appNav', [ ]);
 		},
 		{
 			"name": "Grade 6",
+			"number":6,
 			"math": 
 			{
 				"name":"Math",
@@ -677,6 +683,7 @@ var app = angular.module('appNav', [ ]);
 		},
 		{
 			"name": "Grade 7",
+			"number":7,
 			"math": 
 			{
 				"name":"Math",
@@ -746,6 +753,7 @@ var app = angular.module('appNav', [ ]);
 		},
 		{
 			"name": "Grade 8",
+			"number":8,
 			"math": 
 			{
 				"name":"Math",
@@ -834,6 +842,7 @@ var app = angular.module('appNav', [ ]);
 		},
 		{
 			"name": "Grade 9",
+			"number":9,
 			"math": 
 			{
 				"name":"Math",
@@ -988,6 +997,7 @@ var app = angular.module('appNav', [ ]);
 		},
 		{
 			"name": "Grade 10",
+			"number":10,
 			"math": 
 			{
 				"name":"Math",
@@ -1083,6 +1093,7 @@ var app = angular.module('appNav', [ ]);
 		},
 		{
 			"name": "Grade 11",
+			"number":11,
 			"math": 
 			{
 				"name":"Math",
@@ -1146,6 +1157,7 @@ var app = angular.module('appNav', [ ]);
 		},
 		{
 			"name": "Grade 12",
+			"number":12,
 			"math": 
 			{
 				"name":"Math",

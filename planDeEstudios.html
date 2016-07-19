@@ -1,0 +1,146 @@
+<!doctype html>
+<html ng-app="appNav">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Frameworks-->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <title>Welds.org</title>
+    
+  </head>
+  <body>
+    <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top arriba">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-namePg">
+            <span class="sr-only">Desplegar / Ocultar Menu</span>
+            <i class="fa fa-caret-square-o-down fabtn" aria-hidden="true"></i>
+          </button>
+          <a href="index.html" class="navbar-brand">Welds</a>
+        </div>
+        <!-- Menu -->
+        <div ng-controller="navController as barra" class="collapse navbar-collapse" id="nav-namePg">
+          <ul  class="nav navbar-nav">
+            <li class="active" ng-repeat="boton in barra.navs"><a href="{{boton.link}}">{{boton.name}}</a></li>  
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Inicia el contenido de la Página-->
+
+    <!--Controler de todo el contenido-->
+
+    <section ng-controller="contentGrado as grados">
+
+      <!--Sección 1 del contenido-->
+      <article class="jumbotron row">
+        <h1 class="text-center" style="margin-top:1.5em"><strong>{{grados.titulo}}</strong></h1>
+      </article>
+        
+     
+
+      <section class="container-fluid ">
+        <ul class="nav-pills row text-center" >
+          <button ng-click="tab = 1" class="btn btn-default text-center">{{grados.contentGrado[0].name}}</button>
+          <button ng-click="tab = 2" class="btn btn-default text-center">{{grados.contentGrado[1].name}}</button>
+          <button ng-click="tab = 3" class="btn btn-default text-center">{{grados.contentGrado[2].name}}</button>
+          <button ng-click="tab = 4" class="btn btn-default text-center">{{grados.contentGrado[3].name}}</button>
+          <button ng-click="tab = 5" class="btn btn-default text-center">{{grados.contentGrado[4].name}}</button>
+          <button ng-click="tab = 6" class="btn btn-default text-center">{{grados.contentGrado[5].name}}</button>
+          <button ng-click="tab = 7" class="btn btn-default text-center">{{grados.contentGrado[6].name}}</button>
+          <button ng-click="tab = 8" class="btn btn-default text-center">{{grados.contentGrado[7].name}}</button>
+          <button ng-click="tab = 9" class="btn btn-default text-center">{{grados.contentGrado[8].name}}</button>
+          <button ng-click="tab = 10" class="btn btn-default text-center">{{grados.contentGrado[9].name}}</button>
+          <button ng-click="tab = 11" class="btn btn-default text-center">{{grados.contentGrado[10].name}}</button>
+          <button ng-click="tab = 12" class="btn btn-default text-center">{{grados.contentGrado[11].name}}</button>
+
+        </ul>
+      </section>
+
+      <article class="container planMargin">
+        <div ng-repeat="grado in grados.contentGrado" >
+        <div class="" ng-show="tab === {{grado.number}}">
+          
+          <h2>{{grado.name}} </h2>
+          <div class="row bacftrans text-center">
+            <button ng-click="tip = 1" class="btn btn-default">{{grado.math.name}}</button>
+            <button ng-click="tip = 2" class="btn btn-default">{{grado.language.name}}</button>
+            <button ng-click="tip = 3" class="btn btn-default">{{grado.science.name}}</button>
+            <button ng-click="tip = 4" class="btn btn-default">{{grado.social.name}}</button>
+            <button ng-click="tip = 5" class="btn btn-default">{{grado.arts.name}}</button>
+          </div>
+
+          <div ng-show="tip === 1">
+            <h3>{{grado.math.name}}</h3>
+            <ul ng-repeat="tema in grado.math.themes">
+              <li>{{tema}}</li>
+            </ul>
+          </div>
+          <div ng-show="tip === 2">
+            <h3>{{grado.language.name}}</h3>
+            <ul ng-repeat="tema in grado.language.themes">
+              <li>{{tema}}</li>
+            </ul>
+          </div>
+          <div ng-show="tip === 3">
+            <h3>{{grado.science.name}}</h3>
+            <ul ng-repeat="tema in grado.science.themes">
+              <li>{{tema}}</li>
+            </ul>
+          </div>
+          <div ng-show="tip === 4">
+            <h3>{{grado.social.name}}</h3>
+            <ul ng-repeat="tema in grado.social.themes">
+              <li>{{tema}}</li>
+            </ul>
+          </div>
+          <div ng-show="tip === 5">
+            <h3>{{grado.arts.name}}</h3>
+            <ul ng-repeat="tema in grado.arts.themes">
+              <li>{{tema}}</li>
+            </ul>
+          </div>
+
+        </div>
+          
+        </div>
+
+      </article>
+
+
+
+    <!--Termina el contenido de la Página-->
+
+    <nav role="navigation" class="navbar navbar-inverse noMarginBot hidden-lg hidden-md">
+      <div class="container">
+      <br>
+        <p class="text-center ">© 2016 Welds Homeschooling.<br>Todos los derechos reservados.</p>
+                
+      </div>
+    </nav>
+     <nav role="navigation" class="navbar navbar-inverse navbar-fixed-bottom noMarginBot hidden-xs hidden-sm">
+      <div class="container">
+      <br>
+         <p class="text-center">© 2016 Welds Homeschooling. Todos los derechos reservados.</p>
+      </div>
+    </nav>
+   
+
+    <!--Scripts extras-->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>-->
+    <!--App Angular-->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="app/appNav.js"></script>
+    <script>
+  
+  </script>
+  </body>
+</html>
+
+
+
+
