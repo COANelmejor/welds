@@ -1229,3 +1229,4 @@ var app = angular.module('appNav', [ ]);
 			}
 		}
 	]
+
