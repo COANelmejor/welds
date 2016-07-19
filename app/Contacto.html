@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Frameworks-->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <title>Welds.org</title>
+    
+  </head>
+  <body class="bodyInicio">
+    <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top arriba">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-namePg">
+            <span class="sr-only">Desplegar / Ocultar Menu</span>
+            <i class="fa fa-caret-square-o-down fabtn" aria-hidden="true"></i>
+          </button>
+          <a href="index.html" class="navbar-brand">Welds</a>
+        </div>
+        <!-- Menu -->
+        <div ng-controller="navController as barra" class="collapse navbar-collapse" id="nav-namePg">
+          <ul  class="nav navbar-nav">
+            <li class="active" ng-repeat="boton in barra.navs"><a href="{{boton.link}}">{{boton.name}}</a></li>  
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+
+<!--   <div class="container">
+	<form class="navbar-form navbar-left" role="search">
+		  <div class="">
+		  	<div class="row">
+		  		<div class="col-xs-12 col-md-6">
+			    	<input type="text" class="form-control" placeholder="Nombre Completo">
+		  		</div>
+		  		<div class="col-xs-12 col-md-6">
+			    	<input type="text" class="form-control" placeholder="E-mail">
+		  		</div>
+		  	</div>
+		  	<div class="row">
+		  		<input type="text" class="form-control col-xs-12 col-md-12" placeholder="Asunto">
+		  	</div>
+		  	<div class="row">
+		  		<input type="text" class="form-control col-xs-12 col-md-12" placeholder="Mensaje">
+		  	</div>
+		  </div>
+		  <button type="submit" class="btn btn-info">Enviar</button>
+	</form> -->
+  	<div class="container">
+	<div class="row">
+		<div class="info-General col-xs-12 col-sm-12 col-md-7">
+			<section>
+				<article>
+					<p>Puedes Contactar con Nosotros... </p>
+				</article>
+			</section>
+			<div class="info-Emails row">
+				<section>
+					<article>
+						<p>A los Correos: </p>
+						<p>
+							<ul>
+								<li class="none">Correo # 1</li>
+								<li class="none">Correo # 2</li>	
+							</ul>
+						</p>
+					</article>
+				</section>
+			</div>
+			<div class="info-Phones pull-center row">
+				<section>
+					<article>
+						<p>A los Teléfonos: </p>
+						<p>
+							<ul>
+								<li class="none">No. de Teléfono: 1</li>
+								<li class="none">No. de Teléfono: 2</li>
+							</ul>
+						</p>
+					</article>
+				</section>
+			</div>
+			<div class="info-Adress row">
+				<section>
+					<article>
+						<p>O Visitarnos A las Siguientes Direciones: </p>
+						<p>
+							<ul>
+								<li class="none">Oficinas Centrales</li>
+								<li class="none">Sede Central</li>
+							</ul>
+						</p>
+					</article>
+				</section>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-5">
+			<!-- Iframe Map-Adress -->
+			<section class="visible-xs">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3278.1177333280166!2d-90.50684669873827!3d14.59610800271883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2sgt!4v1468889638815" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</section>
+			<section class="visible-sm">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3278.1177333280166!2d-90.50684669873827!3d14.59610800271883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2sgt!4v1468889638815" width="100%" height="275" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</section>
+			<section class="visible-md visible-lg">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3278.1177333280166!2d-90.50684669873827!3d14.59610800271883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2sgt!4v1468889638815" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</section>
+		</div>
+	</div>
+</div>
+  </div>	
+</body>
+</html>

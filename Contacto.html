@@ -30,64 +30,69 @@
     </nav>
     <!--Inicia el contenido de la Página-->
 
-    <!--Controler de todo el contenido-->
+<div class="container lol">
+	<div class="row">
+		<div style="border-radius:25px; background-color: rgba(255,255,255,0.6);" class="info-General col-xs-12 col-sm-12 col-md-7">
+			<section>
+				<article>
+					<p>Puedes Contactarnos por los siguientes recursos: </p>
+				</article>
+			</section>
+			<div class="info-Emails row">
+				<section>
+					<article>
+						<p>A los Correos: </p>
+						<p>
+							<ul>
+								<li class="none">Correo # 1</li>
+								<li class="none">Correo # 2</li>	
+							</ul>
+						</p>
+					</article>
+				</section>
+			</div>
+			<div class="info-Phones pull-center row">
+				<section>
+					<article>
+						<p>A los Teléfonos: </p>
+						<p>
+							<ul>
+								<li class="none">No. de Teléfono: 1</li>
+								<li class="none">No. de Teléfono: 2</li>
+							</ul>
+						</p>
+					</article>
+				</section>
+			</div>
+			<div class="info-Adress row">
+				<section>
+					<article>
+						<p>O Visitarnos A las Siguientes Direciones: </p>
+						<p>
+							<ul>
+								<li class="none">Oficinas Centrales</li>
+								<li class="none">Sede Central</li>
+							</ul>
+						</p>
+					</article>
+				</section>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-5">
+			<!-- Iframe Map-Adress -->
+			<section class="visible-xs">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3278.1177333280166!2d-90.50684669873827!3d14.59610800271883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2sgt!4v1468889638815" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</section>
+			<section class="visible-sm">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3278.1177333280166!2d-90.50684669873827!3d14.59610800271883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2sgt!4v1468889638815" width="100%" height="275" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</section>
+			<section class="visible-md visible-lg">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3278.1177333280166!2d-90.50684669873827!3d14.59610800271883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2sgt!4v1468889638815" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</section>
+		</div>
+	</div>
+</div>
 
-    <section ng-controller="contentInicio as inicio">
-
-      <!--Sección 1 del contenido-->
-
-      <article class="jumbotron eduEnCasa2" id="inicioHeader">
-        <h1 class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-6 col-md-offset-1 vcenter text-center"><strong>{{inicio.primero.titulo}}</strong></h1>
-      </article>
-
-      <!--Sección 3 del contenido-->
-
-      <article class="content-fluid row backPar bg-info infoIcon">
-      <div ng-repeat="icono in inicio.tercero.contenido">
-        <div class="col-xs-12 col-sm-6 col-md-3 text-center " >
-        <div class="bg-info" style="margin:5px;padding:10px; height: 100%;">
-          <i class="fa {{icono.icon}} fa-5x " aria-hidden="true"></i>
-          <h4>{{icono.texto}}</h4>
-        </div>
-        </div>
-      </div>
-      </article>
-
-      <!--Sección 2 del contenido-->
-
-      <article class="content-fluid row backPar eduEnCasa">
-        <div class="col-xs-12 col-md-5 col-md-offset-1">
-          <img src="images/home_languageschool_choose_language.png" alt="" class="img-responsive">
-        </div>
-        <div class="col-xs-12 col-md-5 btn-default">
-          <h2>{{inicio.quinto.titulo}}</h2>
-          <p>{{inicio.quinto.contenido}}</p> 
-          <h2>{{inicio.segundo.titulo}}</h2>
-          <p ng-repeat="parrafo in inicio.segundo.contenido">{{parrafo}}</p>
-        </div>
-        <p></p>
-      </article>
-      <!--Section 5 del Contenido-->
-      <article class="content-fluid row backPar bg-info">
-      <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3 text-center">
-    
-      </div>
-
-      </article>
-      <!--Section 4 del contendido-->
-      
-    <article class="content-fluid row backPar artInfo">
-    <h2 class="text-center"><strong>{{inicio.cuarto.titulo}}</strong></h2>
-    <div ng-repeat="arts in inicio.cuarto.articulos" class="col-xs-12 col-sm-6 col-md-4">
-      <div>
-        <img ng-src="{{arts.image}}" class="img-responsive">
-        <h3>{{arts.titulo}}</h3> 
-        <div ng-repeat="contenido in arts.contenido">
-          <p>{{contenido}}</p>  
-        </div>
-      </div>
-    </div>
-    </article>
 
      
 
