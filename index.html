@@ -67,18 +67,11 @@
         </div>
         <p></p>
       </article>
-      <!--Section 5 del Contenido-->
-      <article class="content-fluid row backPar bg-info">
-      <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3 text-center">
-    
-      </div>
-
-      </article>
       <!--Section 4 del contendido-->
       
     <article class="content-fluid row backPar artInfo">
-    <h2 class="text-center"><strong>{{inicio.cuarto.titulo}}</strong></h2>
-    <div ng-repeat="arts in inicio.cuarto.articulos" class="col-xs-12 col-sm-6 col-md-4">
+    <h2 class="text-center"><strong>{{inicio.cuarto.titulo}} ALA</strong></h2>
+    <div ng-repeat="arts in inicio.cuarto" class="col-xs-12 col-sm-6 col-md-4">
       <div>
         <img ng-src="{{arts.image}}" class="img-responsive">
         <h3>{{arts.titulo}}</h3> 
